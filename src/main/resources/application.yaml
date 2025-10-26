@@ -9,3 +9,8 @@ spring:
         protocol: streamable
         stdio: false
         type: sync
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+  file:
+    name: logs/jobsearchermcpserver.log

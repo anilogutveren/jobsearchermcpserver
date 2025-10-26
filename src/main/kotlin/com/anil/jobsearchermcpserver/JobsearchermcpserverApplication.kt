@@ -7,5 +7,5 @@ import org.springframework.boot.runApplication
 class JobsearchermcpserverApplication
 
 fun main(args: Array<String>) {
-	runApplication<JobsearchermcpserverApplication>(*args)
+    runApplication<JobsearchermcpserverApplication>(*args)
 }
