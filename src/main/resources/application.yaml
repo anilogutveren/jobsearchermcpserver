@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: jobsearchermcpserver
+  ai:
+    mcp:
+      server:
+        name: jobsearchermcpserver
+        version: 0.1.1
+        protocol: streamable
+        stdio: false
+        type: sync
